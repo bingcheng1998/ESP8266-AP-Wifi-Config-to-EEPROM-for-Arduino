@@ -12,3 +12,5 @@ Once the connection failed, it will start a new AP and provide a web interface f
 
 **optional**
 A web service can be enabled to provide information page, restart & reset functions.
+
+## user guide
