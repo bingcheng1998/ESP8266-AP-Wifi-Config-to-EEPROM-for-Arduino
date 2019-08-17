@@ -10,13 +10,13 @@ const char *infocommand = "/" AP_INFO;
 
 // web page parts
 const char APwebPage1[] PROGMEM = "<!DOCTYPE HTML>\n"
-				  "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><title>esp8266 WiFi setup control</title>\n"
+				  "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><title>WiFi Setup</title>\n"
 				  "<style type=\"text/css\">body {text-align:center;font-family: sans-serif;background-color: #fff;color: #000;font-size:1.2em;} a:link, a:visited, a:hover, a:active {color:#000;}</style>\n"
 				  "</head>\n"
 				  "<body>\n"
-				  "<h1>esp8266 WiFi setup control</h1>\n<br>"
+				  "<h1>WiFi Setup</h1>\n<br>"
 				  "<table style=\"width:100%;border: 1px solid #000;\">"
-				  "<tr style=\"text-align:center;\"><form action='/APsubmit' method='POST'><input type=\"text\" name=\"newssid\" id=\"formnewssid\" value=\"\"><br><input type=\"text\" name=\"newpass\" value=\"\" size=\"32\" maxlength=\"64\"><br><input type=\"submit\" value=\"Submit\"></form></tr>"
+				  "<tr style=\"text-align:center;\"><form action='/APsubmit' method='POST'>WiFi SSID: <input type=\"text\" name=\"newssid\" id=\"formnewssid\" value=\"\" size=\"32\" maxlength=\"64\"><br>Password: <input type=\"text\" name=\"newpass\" value=\"\" size=\"32\" maxlength=\"64\"><br><input type=\"submit\" value=\"Submit\"></form></tr>"
 				  "<tr style=\"text-align:left;\">";
 String APwebPage2 = "</tr></table>\n"
 		    "<br><br><form action=\"/\" target=\"_top\"><input type=\"submit\" value=\"home / rescan networks\"></form>\n"
