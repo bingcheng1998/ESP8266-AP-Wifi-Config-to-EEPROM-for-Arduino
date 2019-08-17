@@ -16,7 +16,7 @@ const char APwebPage1[] PROGMEM = "<!DOCTYPE HTML>\n"
 				  "<body>\n"
 				  "<h1>WiFi Setup</h1>\n<br>"
 				  "<table style=\"width:100%;border: 1px solid #000;\">"
-				  "<tr style=\"text-align:center;\"><form action='/APsubmit' method='POST'>WiFi SSID: <input type=\"text\" name=\"newssid\" id=\"formnewssid\" value=\"\" size=\"32\" maxlength=\"64\"><br>Password: <input type=\"text\" name=\"newpass\" value=\"\" size=\"32\" maxlength=\"64\"><br><input type=\"submit\" value=\"Submit\"></form></tr>"
+				  "<tr style=\"text-align:center;\"><form action='/APsubmit' method='POST'>\nWiFi SSID: <input type=\"text\" name=\"newssid\" id=\"formnewssid\" value=\"\" size=\"32\" maxlength=\"64\"><br>\nPassword: <input type=\"text\" name=\"newpass\" value=\"\" size=\"32\" maxlength=\"64\"><br><input type=\"submit\" value=\"Submit\"></form></tr>"
 				  "<tr style=\"text-align:left;\">";
 String APwebPage2 = "</tr></table>\n"
 		    "<br><br><form action=\"/\" target=\"_top\"><input type=\"submit\" value=\"home / rescan networks\"></form>\n"
