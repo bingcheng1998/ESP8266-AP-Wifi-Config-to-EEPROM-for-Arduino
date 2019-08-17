@@ -1,0 +1,54 @@
+
+<!DOCTYPE HTML>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>esp8266 WiFi setup control</title>
+<style type="text/css">body {text-align:center;font-family: sans-serif;background-color: #fff;color: #000;font-size:1.2em;} a:link, a:visited, a:hover, a:active {color:#000;}</style>
+</head>
+<body>
+<h1>esp8266 WiFi setup control</h1>
+
+<br>
+
+<table style="width:100%;border: 1px solid #000;">
+
+<!-- 	<tr>
+		<th style="text-align:center;width:50%;">
+
+			<form action='/APsubmit' method='POST'><input type="text" name="newssid" id="formnewssid" value=""><br><input type="text" name="newpass" value="" size="32" maxlength="64"><br><input type="submit" value="Submit">
+			</form>
+		</th>
+
+		<th style="text-align:left;width:50%;">
+			<ul> 
+				<li> 1: &nbsp;&nbsp;<b><a href="#" target="_top" onClick="document.getElementById('formnewssid').value='👓+🐸=-1s⌚️'">👓+🐸=-1s⌚️</a></b>&nbsp;&nbsp;&nbsp;(-36&nbsp;dBm)&nbsp;&nbsp;&nbsp;WPA2</li>
+
+				<li> 2:&nbsp;&nbsp;<b><a href="#" target="_top" onClick="document.getElementById('formnewssid').value='D20-521'">D20-521</a></b>&nbsp;&nbsp;&nbsp;(-40&nbsp;dBm)&nbsp;&nbsp;&nbsp;Auto</li> 
+			</ul>
+		</th>
+	</tr> -->
+	<!-- <tr> -->
+		<tr style="text-align:center;">
+
+			<form action='/APsubmit' method='POST'>
+
+				<input type="text" name="newssid" id="formnewssid" value=""><br>
+				<input type="text" name="newpass" value="" size="32" maxlength="64"><br>
+				<input type="submit" value="Submit">
+			</form>
+		</tr>
+		
+		<tr style="text-align:left;">
+			<ul> 
+				<li> 1: &nbsp;&nbsp;<b><a href="#" target="_top" onClick="document.getElementById('formnewssid').value='Network_1'">Network_1</a></b>&nbsp;&nbsp;&nbsp;(-36&nbsp;dBm)&nbsp;&nbsp;&nbsp;WPA2</li>
+
+				<li> 2:&nbsp;&nbsp;<b><a href="#" target="_top" onClick="document.getElementById('formnewssid').value='Network_2'">Network_2</a></b>&nbsp;&nbsp;&nbsp;(-40&nbsp;dBm)&nbsp;&nbsp;&nbsp;Auto</li> 
+			</ul>
+		</tr>
+	<!-- </tr> -->
+
+</table>
+
+<br><br><form action="/" target="_top"><input type="submit" value="home / rescan networks"></form>
+<br><br><form action="/restart" target="_top"><input type="submit" value="restart esp8266"></form>
+<br><br><form action="/cleareeprom" target="_top"><input type="submit" value="! clear EEPROM !"></form>
+<br><br><b>- version: 0.5 -</b>
+</body></html>
