@@ -7,7 +7,7 @@
 #define AP_CLEAREEPROM "cleareeprom"
 #define AP_INFO "info"
 #define AP_WIFICFGPORT 80
-#define ESPWIFI2EEPROM_VERSION "0.5"
+#define ESPWIFI2EEPROM_VERSION "0.6"
 
 // password for the esp8266 softAP creates when it doesn't find info in the
 // eeprom
